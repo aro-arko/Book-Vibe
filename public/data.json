@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "image": "https://i.ibb.co/v3Mk1GN/Group-28.png",
+    "review": "A profound novel that explores racial injustice in the Deep South.",
+    "totalPages": 281,
+    "rating": 4.8,
+    "category": "Fiction",
+    "tags": ["Classic", "Historical"],
+    "publisher": "J.B. Lippincott & Co.",
+    "yearOfPublishing": 1960
+  },
+  {
+    "id": 2,
+    "name": "1984",
+    "author": "George Orwell",
+    "image": "https://i.ibb.co/LnPsH8y/Group-29.png",
+    "review": "A chilling dystopian novel that delves into the dangers of totalitarianism.",
+    "totalPages": 328,
+    "rating": 4.7,
+    "category": "Dystopian",
+    "tags": ["Political", "Science Fiction"],
+    "publisher": "Secker & Warburg",
+    "yearOfPublishing": 1949
+  },
+  {
+    "id": 3,
+    "name": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "image": "https://i.ibb.co/WGVgQRn/Group-30.png",
+    "review": "A timeless romance that critiques the British class system.",
+    "totalPages": 279,
+    "rating": 4.5,
+    "category": "Romance",
+    "tags": ["Classic", "Romantic"],
+    "publisher": "T. Egerton",
+    "yearOfPublishing": 1813
+  },
+  {
+    "id": 4,
+    "name": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "image": "https://i.ibb.co/HBsMfbP/Group-31.png",
+    "review": "A tragic love story set in the Roaring Twenties that critiques the American Dream.",
+    "totalPages": 180,
+    "rating": 4.4,
+    "category": "Fiction",
+    "tags": ["Classic", "American Literature"],
+    "publisher": "Charles Scribner's Sons",
+    "yearOfPublishing": 1925
+  },
+  {
+    "id": 5,
+    "name": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "image": "https://i.ibb.co/yPkBQHc/Group-32.png",
+    "review": "An exploration of teenage angst and alienation through the eyes of Holden Caulfield.",
+    "totalPages": 214,
+    "rating": 4.1,
+    "category": "Fiction",
+    "tags": ["Coming-of-Age", "Classic"],
+    "publisher": "Little, Brown and Company",
+    "yearOfPublishing": 1951
+  },
+  {
+    "id": 6,
+    "name": "Moby-Dick",
+    "author": "Herman Melville",
+    "image": "https://i.ibb.co/SRDkVNd/Group-33.png",
+    "review": "A complex and symbolic narrative about obsession and the sea.",
+    "totalPages": 585,
+    "rating": 4.3,
+    "category": "Adventure",
+    "tags": ["Classic", "Adventure"],
+    "publisher": "Harper & Brothers",
+    "yearOfPublishing": 1851
+  }
+]

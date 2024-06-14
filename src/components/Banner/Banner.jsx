@@ -5,9 +5,9 @@ import { Link } from "react-router-dom";
 const Banner = () => {
   return (
     <div className="mt-12">
-      <div className="grid md:flex items-center justify-center pb-20 bg-[#f3f3f3] rounded-3xl">
+      <div className="grid md:flex items-center justify-center py-16 bg-[#f3f3f3] rounded-3xl">
         <div className="w-1/2">
-          <h2 className="text-xl md:text-5xl font-bold ">
+          <h2 className="text-xl md:text-5xl font-bold family">
             Books to freshen up your bookshelf
           </h2>
           <Link to="/listed-books">

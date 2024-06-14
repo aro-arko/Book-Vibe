@@ -6,6 +6,7 @@ import Root from "./components/Root/Root.jsx";
 import Home from "./components/Home/Home.jsx";
 import ListedBooks from "./components/ListedBooks/ListedBooks.jsx";
 import Read from "./components/Read/Read.jsx";
+import BookDetails from "./components/BookDetails/BookDetails.jsx";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "/read",
         element: <Read></Read>,
+      },
+      {
+        path: "/book/:id",
+        element: <BookDetails></BookDetails>,
       },
     ],
   },
