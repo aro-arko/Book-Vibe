@@ -1,0 +1,6 @@
+.border-base-300{
+    border-left: none !important;;
+    border-bottom: none !important;
+    border-right: none !important;
+    border-radius: 0;
+}
