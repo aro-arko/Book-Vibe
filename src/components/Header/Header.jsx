@@ -11,7 +11,7 @@ const Header = () => {
         <NavLink to="/listed-books">Listed Books</NavLink>
       </li>
       <li className="text-lg">
-        <NavLink to="/read">Pages to Read</NavLink>
+        <NavLink to="/pages-read">Pages to Read</NavLink>
       </li>
     </>
   );

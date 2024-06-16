@@ -3,7 +3,7 @@ import Header from "../Header/Header";
 
 const Root = () => {
   return (
-    <div className="md:max-w-6xl mx-auto">
+    <div className="md:max-w-7xl mx-auto">
       <Header></Header>
       <Outlet></Outlet>
     </div>

@@ -10,11 +10,11 @@ const Books = () => {
       .then((data) => setBooks(data));
   }, []);
 
-  console.log(books);
+  // console.log(books);
   return (
     <div>
       <div className="mt-24">
-        <h2 className="text-4xl text-center font-bold">Books</h2>
+        <h2 className="text-4xl text-center font-bold mb-4">Books</h2>
       </div>
 
       <div className="grid md:grid-cols-3 gap-10 pb-20">

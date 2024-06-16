@@ -3,7 +3,7 @@ import { IoLocationOutline, IoDocumentTextOutline } from "react-icons/io5";
 import { RiGroupLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 
-const Read = ({ book }) => {
+const WishList = ({ book }) => {
   const {
     id,
     image,
@@ -77,8 +77,8 @@ const Read = ({ book }) => {
   );
 };
 
-Read.propTypes = {
+WishList.propTypes = {
   book: PropTypes.object.isRequired,
 };
 
-export default Read;
+export default WishList;

@@ -34,6 +34,8 @@ const BookDetails = () => {
     yearOfPublishing,
   } = book;
 
+  const [isWishlist, setIsWishlist] = useState(false);
+
   // Read Book Section
   const [isRead, setIsRead] = useState(false);
   const allBookId = getReadingList();
@@ -50,11 +52,10 @@ const BookDetails = () => {
       toast.success("Added to Readings List");
       saveReadingList(id);
     } else {
-      toast.warning("Already in the Readings List!");
+      toast.error("Already in the Readings List!");
     }
   };
   // Wishlist section
-  const [isWishlist, setIsWishlist] = useState(false);
   const allWishlistId = getWishlist();
   const handleWishlist = (id) => {
     if (isRead === false) {
